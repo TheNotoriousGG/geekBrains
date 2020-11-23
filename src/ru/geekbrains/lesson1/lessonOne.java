@@ -31,6 +31,9 @@ public class lessonOne
         boolean resultPos = giveMePositive(-5);
         System.out.println(resultPos);
 
+        //task7
+        printHiName("Георгий");
+
 
 
 
@@ -77,4 +80,9 @@ public class lessonOne
             }
         return result;
     }
+
+    static void printHiName(String name)
+        {
+            System.out.println("Привет,"+name+"!");
+        }
 }
