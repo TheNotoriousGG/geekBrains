@@ -16,8 +16,17 @@ public class lessonOne
 
         boolean bool = false;
 
+        
+        double result = calculate(2, 4,1,2);
+        System.out.println(result);
 
 
+
+    }
+
+    static double calculate(double a,double b,double c,double d)
+    {
+        return a * (b + (c / d));
     }
 
 
