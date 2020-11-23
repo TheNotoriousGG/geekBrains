@@ -24,6 +24,9 @@ public class lessonOne
         boolean comp = comparison(3,15);
         System.out.println(comp);
 
+        //task5
+        positOrNeg(-666);
+
 
 
 
@@ -48,5 +51,17 @@ public class lessonOne
             }
     }
 
+    static void positOrNeg(int i)
+    {
+        if (i < 0)
+            {
+                System.out.println(i + "  - Отрицательное число");
+            }
+        else
+        {
+            System.out.println(i + "  - Положительное число");
+        }
+
+    }
 
 }
