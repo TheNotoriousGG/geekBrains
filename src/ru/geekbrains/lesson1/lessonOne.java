@@ -27,6 +27,10 @@ public class lessonOne
         //task5
         positOrNeg(-666);
 
+        //task6
+        boolean resultPos = giveMePositive(-5);
+        System.out.println(resultPos);
+
 
 
 
@@ -64,4 +68,13 @@ public class lessonOne
 
     }
 
+    static boolean giveMePositive(int i)
+    {
+        boolean result = false;
+        if(i<0)
+            {
+                result = true;
+            }
+        return result;
+    }
 }
