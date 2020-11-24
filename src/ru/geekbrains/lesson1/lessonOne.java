@@ -2,8 +2,10 @@ package ru.geekbrains.lesson1;
 
 public class lessonOne
 {
+        //task1
     public static void main(String[] args)
     {
+        //task2
         byte b = 1;
         short s = 2;
         int i = 3;
@@ -33,6 +35,9 @@ public class lessonOne
 
         //task7
         printHiName("Георгий");
+
+        //task8
+        intercalaryYear(2000);
 
 
 
@@ -85,4 +90,18 @@ public class lessonOne
         {
             System.out.println("Привет,"+name+"!");
         }
+
+    static void intercalaryYear(int year)
+    {
+        String whatsYear = "Не високосный";
+        if ((year%4 == 0 && year%100 != 0) || year%400 == 0)
+            {
+                whatsYear = "Високосный";
+            }
+
+        System.out.println(year+" год"+" - "+whatsYear);
+
+    }
+
+
 }
