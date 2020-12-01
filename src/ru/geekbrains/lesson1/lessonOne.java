@@ -35,8 +35,8 @@ public class lessonOne
 
         //task7
         printHiName("Георгий");
-
-        //task8
+        //Дальше бога нет
+        //task8*
         intercalaryYear(2000);
 
 
