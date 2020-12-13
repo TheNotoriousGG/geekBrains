@@ -62,7 +62,7 @@ public class lessonThree
 
                 resString += "#############";
             }
-            System.out.println("Вы не угадали(... Все совпадения букв указаны ниже. (# - засекреченный символ)");
+            System.out.println("Вы не угадали((... Все совпадения букв указаны ниже. (# - засекреченный символ)");
             System.out.println(resString);
         }
         while(true);
