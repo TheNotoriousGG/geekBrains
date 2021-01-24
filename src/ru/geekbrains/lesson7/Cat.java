@@ -29,7 +29,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Cat:){" +
                 "name='" + name + '\'' +
                 ", appetite=" + appetite +
                 ", satiety=" + satiety +
