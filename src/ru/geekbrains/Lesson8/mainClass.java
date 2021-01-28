@@ -1,7 +1,5 @@
-package ru.geekbrains.Lesson88;
+package ru.geekbrains.Lesson8;
 
-
-import ru.geekbrains.Lesson88.MyWindow;
 
 public class mainClass {
     public static final int SIZE = 5;
