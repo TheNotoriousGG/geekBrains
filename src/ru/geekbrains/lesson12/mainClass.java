@@ -2,13 +2,14 @@ package ru.geekbrains.lesson12;
 
 import ru.geekbrains.lesson12.Interfaces.*;
 
+import java.lang.management.ManagementFactory;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
 public class mainClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //Первое вхождение
         Integer[] numbers = new Integer[]{4, 8, 15, 16, 23, 42};
 
@@ -88,8 +89,6 @@ public class mainClass {
         };
 
         System.out.print(str.search(stringList)+ " ");
-
-
     }
 
 }
